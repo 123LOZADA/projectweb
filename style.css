@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    background:url("img/img1.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    padding-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex ;
+    justify-content: right;
+    gap: 40px;
+    padding-left: 5px;
+    margin: 0;
+}
+
+
+nav ul  a {
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00eaff;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 25px;
+    background: rgba(18, 120, 238, 0.93);
+    border-radius: 10px;
+    font-size: larger;
+
+}
+
+h1, h2 {
+    color: #00eaff;
+}
